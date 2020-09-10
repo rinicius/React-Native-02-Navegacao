@@ -4,7 +4,7 @@ import estiloColecao from "./estilocolecao";
 
 function Colecao({ navigation }) {
   const voltar = () => {
-    navigation.goBack();
+    navigation.navigate("Inicial");
   };
 
   return (

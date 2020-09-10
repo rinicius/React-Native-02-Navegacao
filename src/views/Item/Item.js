@@ -4,7 +4,7 @@ import estiloItem from "./estiloitem";
 
 function Item({ navigation }) {
   const voltar = () => {
-    navigation.goBack();
+    navigation.navigate("Inicial");
   };
   return (
     <View style={estiloItem.container}>
